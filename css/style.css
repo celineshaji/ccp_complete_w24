@@ -301,6 +301,36 @@ a.skip-main:hover {
     }
 }
 
+@media (min-width: 1024px) {
+    /* Desktop styles */
+    h1 {
+        font-size: 56px;
+        letter-spacing: 0.7px;
+        padding-top: 75px;
+    }
+    h2{
+        font-size: 40px;
+        letter-spacing: 0.6px;
+    }
+    h3{
+        font-size: 26px;
+        letter-spacing: 0.5px;
+    }
+    
+    p{
+        line-height: 1.6;
+        letter-spacing: 0.5px;
+    }
+    
+    .grid-container {
+        grid-template-columns: repeat(6, 16.66%);
+    }
+
+    .grid-container img:hover {
+        transform: scale(1.2);
+        transition: transform 0.5s ease;
+    }
+}
 
 
 
