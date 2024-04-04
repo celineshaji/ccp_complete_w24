@@ -108,7 +108,13 @@ div.intro {
 .flex-container {
     display: flex;
     justify-content: space-around;
-    position: fixed; top: 0; left: 0; z-index: 9999; width: 100%; height: 50px; background-color: #96becd;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    width: 100%; 
+    height: 50px; 
+    background-color: #96becd;
 }
 
 .flex-container a {
@@ -397,30 +403,27 @@ ul {
     padding-left: 20px; /* Add padding for space between bullet and text */
 }
  
-/* Style each <li> element with a star bullet */
+/* Style each <li> element with a heart bullet */
 ul:not(nav ul) li:before {
-    content: "\2665"; /* Unicode character for star */
+    content: "\2665"; /* Unicode character for heart */
     display: inline-block;
-    margin-left: -20px; /* Move the star to the left */
-    padding-right: 5px; /* Add space between the star and the text */
+    margin-left: -20px; 
+    padding-right: 5px; 
 }
 
-
-
-
 .numbered {
-    counter-reset: list-counter; /* Reset the counter */
+    counter-reset: list-counter;
 }
 
 .numbered li {
-    counter-increment: list-counter; /* Increment the counter for each list item */
-    list-style: none; /* Remove default list style */
+    counter-increment: list-counter; 
+    list-style: none; 
 }
   
 .numbered li:before {
-    content: counter(list-counter) "."; /* Display the counter with a dot */
+    content: counter(list-counter) "."; 
     display: inline-block;
-    margin-left: -20px; /* Move the number to the left */
+    margin-left: -20px; 
 }
 
 
